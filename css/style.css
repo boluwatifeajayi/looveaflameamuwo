@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+    html{
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+      width: 100%;
+     
+    }
+      iframe{
+        height: 350px;
+        width: 400px;
+      }
+      .con{
+        padding-left: 38px;
+      }
+
+      
+
+      @media(max-width: 900px) {
+        iframe{
+        height: 297px;
+        width: 100%;
+      }
+      .head{
+       font-size: 30px; 
+      }
+    }
